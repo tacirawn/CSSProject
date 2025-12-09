@@ -1,14 +1,19 @@
-
-
-.container2 {
+.container {
     display: flex;
     gap: 10px;
     white-space: nowrap;
-    position: relative;
     min-height: 350px;
 }
 
-.box2 {
+.versionA {
+    visibility: hidden;
+}
+
+.versionB {
+    visibility: visible;
+}
+
+.box {
     width: 100px;
     height: 150px;
     background-color: #eeeff2;
@@ -19,13 +24,13 @@
     padding-left: 10px;
 }
 
-.box2:hover {
+.box:hover {
     background-color: yellow;
     color: darkgoldenrod;
 }
 
-    .box2:last-child {
-        position: absolute;
+    .box:last-child {
+        position: fixed;
         bottom: 0;
         right: 0;
     }

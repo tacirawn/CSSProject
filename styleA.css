@@ -6,6 +6,14 @@
     min-height: 630px;
 }
 
+.versionA {
+    visibility: visible;
+}
+
+.versionB {
+    visibility: hidden;
+}
+
 .box {
     width: 100px;
     height: 100px;
