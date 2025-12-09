@@ -1,0 +1,12 @@
+.box2 {
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.box2:hover {
+    color: yellow;
+}
