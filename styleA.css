@@ -24,6 +24,7 @@
     font-family: Tahoma;
     font-size: 40px;
     flex-shrink: 0;
+    box-sizing: border-box;
 }
 
     .box:nth-child(odd) {
@@ -34,7 +35,7 @@
         background-color: #eeeff2;
     }
 
-    .container .box:last-child{
+    .box:last-child{
         background-color: #687291;
         border: 4px solid black;
         display: flex;
