@@ -1,7 +1,11 @@
+
+
 .container2 {
     display: flex;
-    align-items: center;
     gap: 10px;
+    white-space: nowrap;
+    position: relative;
+    min-height: 350px;
 }
 
 .box2 {
@@ -20,6 +24,8 @@
     color: darkgoldenrod;
 }
 
-.box2:last-child {
-
-}
+    .box2:last-child {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
