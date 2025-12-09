@@ -2,11 +2,12 @@
     display: flex;
     gap: 10px;
     white-space: nowrap;
-    min-height: 350px;
+    height: 100vh;
+    position: relative;
 }
 
 .versionA {
-    visibility: hidden;
+    display: none;
 }
 
 .versionB {
@@ -22,6 +23,7 @@
     font-family: Tahoma;
     font-size: 40px;
     padding-left: 10px;
+    flex-shrink: 0;
 }
 
 .box:hover {
@@ -30,7 +32,7 @@
 }
 
     .box:last-child {
-        position: fixed;
+        position: absolute;
         bottom: 0;
         right: 0;
     }
